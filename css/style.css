@@ -1,0 +1,290 @@
+@import url(fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.logo-box {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.nav {
+    background: #282828;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.logo__img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.search-buy__link {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.search-buy__link_search {
+    margin-right: 25px;
+}
+
+.search-buy__icon {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__title {
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Prosto One';
+    text-align: center;
+    margin-bottom: 38px;
+    font-weight: 400;
+}
+
+.header__link {
+    color: #171718;
+    padding: 13px;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header__icon {
+    color: #171718;
+    font-size: 16px;
+    margin-left: 11px;
+    font-weight: 500;
+}
+
+main {
+    background: #151515;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__content_first {
+    padding-top: 30px;
+}
+
+.main__text {
+    color: #fff;
+    font-size: 22px;
+    max-width: 538px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.main__text_first {
+    margin-top: 33px;
+}
+
+.main__img_first {
+    margin-right: -15px;
+    width: 552px;
+    height: 100%;
+    margin-left: 30px;
+    object-fit: cover;
+}
+
+.main__content_second {
+    margin-top: 50px;
+}
+
+.main__text_second {
+    margin-top: 150px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.box__text {
+    max-width: 333px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box__text_align-right {
+    text-align: right;
+}
+
+.box__line {
+    background: #C4C4C4;
+    height: 1px;
+    width: 61px;
+    margin: 0 13px;
+}
+
+.box__img {
+    margin-top: -35px;
+    width: 268px;
+}
+
+.card-box {
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    display: flex;
+    margin-top: 79px;
+    padding-bottom: 55px;
+    justify-content: space-between;
+}
+
+.card-box__card {
+    background: #fff;
+    max-width: 255px;
+    width: 100%;
+    height: 312px;
+    border-radius: 6px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-box__title {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card-box__img {
+    display: block;
+    margin: 10px auto;
+    max-height: 167px;
+    height: 100%;
+}
+
+.card-box__price {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-box__link {
+    color: #fff;
+    font-size: 16px;
+    width: 161px;
+    padding: 7px 0;
+    background: #151515;
+    text-align: center;
+}
+
+.card-box__link-box {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background: #282828;
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    list-style: none;
+    display: flex;
+}
+
+.footer__link {
+    color: #fff;
+    margin: 0 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer__icon {
+    font-size: 55px;
+    color: #fff;
+}
+
+.payment__link_visa {
+    margin-right: 29px;
+}
